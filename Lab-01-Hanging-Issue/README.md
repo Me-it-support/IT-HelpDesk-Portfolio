@@ -17,7 +17,7 @@ Disk usage was reaching 100%.
 - Stopped SysMain
 
 ## ✅ Result
-- Disk usage dropped to 20%
+- Disk usage dropped to 4%
 - System performance improved
 
 ## 🧠 What I Learned
