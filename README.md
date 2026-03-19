@@ -6,6 +6,6 @@ This repository contains practical labs and exercises completed as part of IT Su
 
 - Lab-01: Task Manager & SysMain Monitoring
 - Lab-02: Password Reset Issue
-- Lab-03: User Accounts Management
+- Lab-03: Internet Connectivity Issue
 
 All labs include detailed steps, screenshots, and results for easy review.
