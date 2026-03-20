@@ -9,3 +9,4 @@ This repository contains practical labs and exercises completed as part of IT Su
 - Lab-03: Internet Connectivity Issue
 
 All labs include detailed steps, screenshots, and results for easy review.
+For certifications completed, see [CERTIFICATIONS.md](CERTIFICATIONS.md)
