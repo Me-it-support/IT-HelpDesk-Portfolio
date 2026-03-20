@@ -6,7 +6,6 @@ Practical IT Support skills showcased through hands-on labs and problem-solving 
 - Objective: Build IT support experience and showcase troubleshooting skills
 - GitHub Portfolio: https://github.com/Me-it-support/IT-HelpDesk-Portfolio
 
-## Labs Included
 - [Lab-01: Hanging Issue](Lab-01-Hanging-Issue)
 - [Lab-02: Password Reset Issue](Lab-02)
 - [Lab-03: User Accounts Management](Lab-03)
