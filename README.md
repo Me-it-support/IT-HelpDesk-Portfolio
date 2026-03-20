@@ -7,7 +7,7 @@ Practical IT Support skills showcased through hands-on labs and problem-solving 
 
 ## Labs Included
 
-- [Lab-01: Task Manager & SysMain Monitoring](Lab-01)
+- Lab-01-Hanging-Issue
 - [Lab-02: Password Reset Issue](Lab-02)
 - [Lab-03: User Accounts Management](Lab-03)
 - [Lab-04: Network & Performance Troubleshooting](Lab-04-Network-Troubleshooting)
