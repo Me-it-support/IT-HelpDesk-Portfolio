@@ -11,7 +11,8 @@ Objective: Build IT support experience and showcase troubleshooting skills.
 - Lab-02: Password Reset Issue
 - Lab-03: User Accounts Management
 - Lab-04: Network & Performance Troubleshooting
-
+- Lab-05: DHCP-IP-Configuration
+- Lab-06: WiFi-TroubleshoWiFi-Troublesho
 > All labs include detailed steps, screenshots, and results for easy review.
 
 ---
