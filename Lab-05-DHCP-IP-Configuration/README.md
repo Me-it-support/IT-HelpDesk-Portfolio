@@ -1,27 +1,34 @@
 # Lab-05: DHCP & IP Configuration
 
 ## Objective
-This lab demonstrates how to configure IP addressing and simulate DHCP behavior on Windows using Loopback Adapters. The goal is to understand static IP configuration, client IP assignment, and IP conflict simulation in a safe, isolated environment.
+Configure IP addressing and simulate DHCP using Loopback Adapters on Windows.
 
----
+## Steps
 
-## Tools Used
-- Windows OS  
-- Loopback Adapter  
-- Command Prompt (`ipconfig`)  
+1. **Install Loopback Adapter (Server)**  
+   - Screenshot: `step-01-loopback-installed.png`
 
----
+2. **Set Static IP on Server (10.0.0.1 / 255.255.255.0)**  
+   - Screenshot: `step-02-ip-config-before.png`
 
-## Lab Steps
+3. **Verify Server IP with ipconfig**  
+   - Screenshot: `step-03-ipconfig-result.png`
 
-### Step 01: Install Loopback Adapter (Server)
-- Add a Microsoft Loopback Adapter to act as the network server.  
-- Screenshot: `step-01-loopback-installed.png`
+4. **Install Loopback Adapter (Client)**  
+   - Screenshot: `step-04-loopback-client-installed.png`
 
-### Step 02: Configure Static IP on Server (Before OK)
-- Open IPv4 Properties of the Server Adapter.  
-- Select **Use the following IP address** and enter:
-  - IP address: `10.0.0.1`  
+5. **Client on Obtain IP automatically**  
+   - Screenshot: `step-05-client-ip-auto.png`
+
+6. **Assign Static IP to Client (10.0.0.2 / 255.255.255.0) + ipconfig**  
+   - Screenshot: `step-06-client-ip-assigned.png`
+
+7. **Prepare Client for IP Conflict Simulation**  
+   - Screenshot: `step-07-client-ip-conflict.png`
+
+## Notes
+- Lab executed locally using Loopback Adapters.  
+- Demonstrates IP configuration and conflict handling without affecting real network.  - IP address: `10.0.0.1`  
   - Subnet mask: `255.255.255.0`  
 - Screenshot: `step-02-ip-config-before.png`
 
