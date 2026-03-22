@@ -12,7 +12,7 @@ Objective: Build IT support experience and showcase troubleshooting skills.
 - Lab-03: User Accounts Management
 - Lab-04: Network & Performance Troubleshooting
 - Lab-05: DHCP-IP-Configuration
-- Lab-06: WiFi-TroubleshoWiFi-Troublesho
+- Lab-06: WiFi-Troubleshooting 
 > All labs include detailed steps, screenshots, and results for easy review.
 
 ---
