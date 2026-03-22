@@ -6,4 +6,4 @@
 - CompTIA Networking 
 - Project Management (DisasterReady)
 - International Humanitarian Law (Leiden University via Coursera)
-- Psychological Well-being 
+
