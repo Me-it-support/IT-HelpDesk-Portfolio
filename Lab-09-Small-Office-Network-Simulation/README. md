@@ -2,19 +2,17 @@
 
 ## 📌 Overview
 This project simulates a small office network using Cisco Packet Tracer.  
-It demonstrates how different devices communicate in a structured network environment, including LAN, WiFi, DHCP, and network printing.
-
-The goal is to model a real office scenario where HR and staff devices are connected and share network resources efficiently.
+It demonstrates LAN connectivity, wireless networking, DHCP, and device communication in a real office scenario.
 
 ---
 
 ## 🖥️ Network Components
 - Cisco Router (1841)
-- Network Switch
+- Switch
 - Wireless Router (Access Point Mode)
 - HR Laptop
 - Staff Laptop
-- Smartphone (WiFi Client)
+- HR Mobile (WiFi Client)
 - Network Printer
 
 ---
@@ -26,31 +24,47 @@ The goal is to model a real office scenario where HR and staff devices are conne
 - Printer: `192.168.0.12`
 - HR Laptop: `192.168.0.10`
 - Staff Laptop: `192.168.0.11`
-- Smartphone: DHCP Assigned Automatically
+- Smartphone: DHCP Assigned
 
 ---
 
 ## ⚙️ Key Configurations
-- LAN setup using a central switch
-- Wireless network configured with SSID
+- LAN setup using Switch
+- Wireless network (SSID configured)
 - DHCP enabled for automatic IP assignment
-- Static IP configuration for key devices (Printer, Router, AP)
-- Integration between wired and wireless networks
+- Static IPs for critical devices
+- Wired and wireless integration
 
 ---
 
-## 🧪 Testing & Verification
-- Successful ping between all devices ✔️  
-- Wireless connectivity verified ✔️  
-- Printer communication tested successfully ✔️  
-- Full network connectivity confirmed ✔️  
+## 🧪 Testing Results
+- Ping between devices successful ✔️  
+- Wireless connection established ✔️  
+- Device-to-device communication verified ✔️  
+- Printer connectivity confirmed via network ✔️  
 
 ---
 
-## 🎯 Project Outcome
-A fully functional small office network that demonstrates essential networking concepts used in real-world IT environments, including connectivity, IP management, and shared resource access.
+## 📸 Screenshots
+
+### 🖧 Network Topology
+![Topology](screenshots/network-topology-simulation.png)
+
+### 📶 Wireless Connection
+![Wireless](screenshots/wireless-connection.png)
+
+### 📡 Ping Test Results
+![Ping](screenshots/ping-test-results.png)
+
+### 🖨️ Printer Connectivity
+![Printer](screenshots/printer-connectivity.png)
 
 ---
 
-## 📌 Tools Used
+## 🎯 Outcome
+A fully functional small office network demonstrating real-world IT networking concepts including LAN setup, wireless access, IP configuration, and device communication.
+
+---
+
+## 🛠️ Tools Used
 - Cisco Packet Tracer
