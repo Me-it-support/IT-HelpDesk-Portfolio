@@ -1,0 +1,56 @@
+# 🏢 Lab 09 - Small Office Network Simulation
+
+## 📌 Overview
+This project simulates a small office network using Cisco Packet Tracer.  
+It demonstrates how different devices communicate in a structured network environment, including LAN, WiFi, DHCP, and network printing.
+
+The goal is to model a real office scenario where HR and staff devices are connected and share network resources efficiently.
+
+---
+
+## 🖥️ Network Components
+- Cisco Router (1841)
+- Network Switch
+- Wireless Router (Access Point Mode)
+- HR Laptop
+- Staff Laptop
+- Smartphone (WiFi Client)
+- Network Printer
+
+---
+
+## 🌐 IP Addressing Scheme
+- Network: `192.168.0.0/24`
+- Default Gateway: `192.168.0.1`
+- Wireless Router: `192.168.0.2`
+- Printer: `192.168.0.12`
+- HR Laptop: `192.168.0.10`
+- Staff Laptop: `192.168.0.11`
+- Smartphone: DHCP Assigned Automatically
+
+---
+
+## ⚙️ Key Configurations
+- LAN setup using a central switch
+- Wireless network configured with SSID
+- DHCP enabled for automatic IP assignment
+- Static IP configuration for key devices (Printer, Router, AP)
+- Integration between wired and wireless networks
+
+---
+
+## 🧪 Testing & Verification
+- Successful ping between all devices ✔️  
+- Wireless connectivity verified ✔️  
+- Printer communication tested successfully ✔️  
+- Full network connectivity confirmed ✔️  
+
+---
+
+## 🎯 Project Outcome
+A fully functional small office network that demonstrates essential networking concepts used in real-world IT environments, including connectivity, IP management, and shared resource access.
+
+---
+
+## 📌 Tools Used
+- Cisco Packet Tracer
