@@ -15,6 +15,7 @@ Objective: Build IT support experience and showcase troubleshooting skills.
 - Lab-06: WiFi-Troubleshooting
 - Lab-07: Shared Folder & Permissions
 - Lab-08: Basic LAN Network Setup
+- Lab-09: Small Office Network Simulation
 > All labs include detailed steps, screenshots, and results for easy review.
 
 ---
