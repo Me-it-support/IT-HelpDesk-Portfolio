@@ -29,5 +29,6 @@ Objective: Build IT support experience and showcase troubleshooting skills.
 - Windows System Management  
 - Network Troubleshooting  
 - User Accounts & Security Management  
-- Problem-Solving & Documentation  
-- Digital Content Creation: Canva, BandLab 
+- Incident Response & Problem Solving  
+- Technical Documentation 
+
