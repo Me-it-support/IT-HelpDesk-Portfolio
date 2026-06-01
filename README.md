@@ -21,7 +21,7 @@ Objective: Build IT support experience and showcase troubleshooting skills.
 ---
 
 ## Certifications & CV
-- [View My Certificates & CV](https://drive.google.com/drive/folders/1ewz6A4PGGRoeCiRKUt8rLPGHBRBlznyE) – Includes Google Cybersecurity, Microsoft IT Support (in progress), CompTIA Network, and others.
+- [View My Certificates & CV](https://drive.google.com/drive/folders/1ewz6A4PGGRoeCiRKUt8rLPGHBRBlznyE) – Includes Google Cybersecurity, Microsoft IT Support (in progress) Network, and others.
 
 ---
 
