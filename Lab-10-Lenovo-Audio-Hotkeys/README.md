@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This lab documents a real-world IT support case involving malfunctioning audio function keys on a Lenovo ThinkPad 11e running Windows 10. The troubleshooting process focused on identifying the issue, restoring the correct audio key functions, and verifying the successful resolution.
+This lab documents a real-world IT support case involving malfunctioning audio function keys on a Lenovo ThinkPad 11e running Windows 10.
 
 ## 🖥️ Device Information
 
@@ -13,13 +13,19 @@ This lab documents a real-world IT support case involving malfunctioning audio f
 
 ## ⚠️ Problem Description
 
-The audio function keys were not performing their intended functions. Pressing F1, F2, or F3 caused the audio to toggle between muted and unmuted states instead of providing the expected mute, volume down, and volume up controls.
+The audio function keys did not perform their intended functions. Pressing F1, F2, or F3 caused the audio to toggle between muted and unmuted states instead of providing the expected controls.
 
-The red mute indicator light also remained illuminated even when the audio was unmuted through Windows.
+The red mute indicator light also remained illuminated even when audio was unmuted through Windows.
 
-## 📸 Screenshots
+## 🔍 Troubleshooting
 
-No screenshots were captured during the original troubleshooting session. The issue was verified through functional testing after installing the Lenovo Power Management Driver and restarting the device.
+- Confirmed that volume control through Windows worked.
+- Reviewed BIOS keyboard function settings.
+- Checked keyboard and audio-related devices in Device Manager.
+- Investigated the Lenovo Hotkey Client Loader service.
+- Found that the `IBMPMSVC` service was initially missing.
+- Ran Windows system file checks and repaired corrupted system files.
+- Installed the Lenovo Power Management Driver compatible with the device.
 
 ## 🛠️ Solution
 
@@ -32,18 +38,15 @@ After restarting, the audio function keys returned to their expected behavior.
 - F1 correctly muted and unmuted the audio.
 - F2 correctly decreased the volume.
 - F3 correctly increased the volume.
-- The red mute indicator light turned off when the audio was unmuted.
-- The `IBMPMSVC` service was confirmed to be running.
+- The red mute indicator light turned off when audio was unmuted.
+- The `IBMPMSVC` service was confirmed to be running after installation.
 
 ## 📸 Screenshots
 
-Screenshots to be added:
-
-- Audio keys before and after troubleshooting
-- Lenovo Power Management Driver installation
-- Successful audio key functionality
-- `IBMPMSVC` service status showing RUNNING
+No screenshots were captured during the original troubleshooting session. The successful resolution was verified through functional testing and checking the service status after installation and restart.
 
 ## 🎯 Outcome
 
-The audio hotkey issue was successfully resolved by installing the appropriate Lenovo Power Management Driver and restarting the device. This case demonstrates the importance of driver compatibility, systematic troubleshooting, service dependency investigation, and post-repair verification.
+The audio hotkey issue was successfully resolved after installing the appropriate Lenovo Power Management Driver and restarting the device.
+
+This case demonstrates the importance of driver compatibility, systematic troubleshooting, service dependency investigation, and post-repair verification.
