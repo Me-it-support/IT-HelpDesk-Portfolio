@@ -17,15 +17,9 @@ The audio function keys were not performing their intended functions. Pressing F
 
 The red mute indicator light also remained illuminated even when the audio was unmuted through Windows.
 
-## 🔍 Troubleshooting
+## 📸 Screenshots
 
-- Checked the audio controls and confirmed that volume adjustment through Windows worked.
-- Reviewed the BIOS keyboard function settings.
-- Checked Device Manager for keyboard and audio-related devices.
-- Investigated the Lenovo Hotkey Client Loader service.
-- Identified that the `IBMPMSVC` service was initially missing.
-- Ran Windows system file checks and repaired corrupted system files.
-- Installed the Lenovo Power Management Driver compatible with the device.
+No screenshots were captured during the original troubleshooting session. The issue was verified through functional testing after installing the Lenovo Power Management Driver and restarting the device.
 
 ## 🛠️ Solution
 
