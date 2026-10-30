@@ -1,46 +1,40 @@
-# Lab-11 — Dell Laptop System Freeze & Performance Troubleshooting
+Lab-11 — Dell Laptop System Troubleshooting
 
-## Overview
-This lab documents troubleshooting performed on a Dell laptop experiencing intermittent system freezes following Windows updates and restarts.
+Overview
 
-## System Specifications
+Troubleshooting an intermittent system freeze affecting a Dell laptop following Windows updates and restarts.
+
+System Specifications
+
 - Device: Dell Laptop
 - RAM: 4 GB
 - Storage: 512 GB HDD
-- Operating System: Windows
+- OS: Windows
 
-## Objective
-Investigate the system freezes, perform recovery and diagnostic checks, optimize startup applications, and monitor system stability.
+Troubleshooting Performed
 
-## Status
-**Stable — Monitoring**
+- Accessed Windows Recovery Environment (WinRE).
+- Inspected disk partitions using DiskPart.
+- Performed an offline System File Checker (SFC) scan.
+- Investigated Windows Update recovery options.
+- Checked System Restore availability.
+- Analyzed system errors using Event Viewer and Reliability Monitor.
+- Reviewed startup configuration and optimized non-essential startup entries.
+- Restarted the system and monitored performance and stability.
 
-No recurrence of the freezing issue was observed during the subsequent monitoring period. The exact root cause remains unconfirmed.
+Results
 
-## Troubleshooting Steps & Evidence
+- SFC reported no system file integrity violations.
+- System booted successfully after troubleshooting.
+- No further freezing was observed during the monitoring period.
+- System performance and normal operation were monitored successfully.
 
-## Troubleshooting Steps & Evidence
+Final Status
 
-### 01 — Initial System Freeze
-![Initial System Freeze](01-initial-system-freeze.png)
+Stable — Monitoring
 
-### 02 — Windows Recovery Environment
-![Windows Recovery Environment](02-windows-recovery-environment.png)
+The issue did not recur during the observation period. The exact root cause remains unconfirmed.
 
-### 03 — Disk Partition Inspection
-![Disk Partition Inspection](03-disk-partition-inspection.png)
+Skills Demonstrated
 
-### 04 — Offline System File Check (SFC)
-![Offline SFC Scan](04-offline-sfc-scan.png)
-
-### 05 — Windows Update Recovery Attempt
-![Windows Update Recovery](05-windows-update-recovery.png)
-
-### 06 — System Restore Investigation
-![System Restore Investigation](06-system-restore-investigation.png)
-
-### 07 — Event Viewer Error Analysis
-![Event Viewer Analysis](07-event-viewer-analysis.png)
-
-### 08 — Startup Optimization & Stability Testing
-![Startup Optimization and Stability Test](08-startup-optimization-stability-test.png)
+Windows Troubleshooting · WinRE · DiskPart · SFC · Event Viewer · Reliability Monitor · Startup Management · Performance Monitoring
